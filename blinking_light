@@ -1,0 +1,26 @@
+power source: 4V DC
+
+NA555P:
+  1->62E
+  8->62F
+  
+R470:
+  7->8 (pin of the 555 timer)
+  
+R470:
+  6->7 (pin of the 555 timer)
+  
+Jumper Wire:
+  2->6 (pin of the 555 timer)
+  
+Capacitor (220µF):
+  1->2 (pin of the 555 timer)
+  
+LED (3V forword voltage):
+  1->3 (pin of the 555 timer) (anode (-) to 1, cathode (+) to 3)
+  
+power source:
+  anode(-)->62A
+  cathode(+)->62J
+  
+description: the led blinks very fast
