@@ -1,0 +1,24 @@
+power source: 3V DC
+
+inner circuit:
+  -60 -> F64 (jumper wire)
+  H64 -> H61 (PDV-P8001)
+  F61 -> H51 (15k ohm resistor)
+  F51 -> +53 (jumper wire)
+  
+outer circuit:
+  J64 -> E62 (jumper wire)
+  J61 -> A61 (jumper wire)
+  C62 -> C61 -> C60 (2N3904)
+  E60 -> E49 (jumper wire)
+  D49 -> D48 (led1)
+  A48 -> J51 (jumper wire)
+  
+components:
+  PDV-P8001: photoresistor max 11k ohm
+  2N3904: npn transistor (max. 0.2A)
+  led1: white led forward voltage about 3V
+  
+description:
+  led emits more light the darker it is.
+  should not light at all when it is light in the room.
