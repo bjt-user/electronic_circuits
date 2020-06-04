@@ -24,3 +24,5 @@ power source:
   cathode(+)->62J
   
 description: the led blinks very fast
+             when you change the 220µF capacitor to a 1000µF capacitor, the led blinks slower. (1s light, 0.5s no light)
+             when you change the 220µ capacitor to a 2200µF capacitor, the led blinks even slower. (2s light, 1s no light)
