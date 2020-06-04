@@ -9,7 +9,7 @@ inner circuit:
 outer circuit:
   J64 -> E62 (jumper wire)
   J61 -> A61 (jumper wire)
-  C62 -> C61 -> C60 (2N3904)
+  C62 (1: emitter) -> C61 (2: base) -> C60 (3: collector) (2N3904)
   E60 -> E49 (jumper wire)
   D49 -> D48 (led1)
   A48 -> J51 (jumper wire)
@@ -22,3 +22,4 @@ components:
 description:
   led emits more light the darker it is.
   should not light at all when it is light in the room.
+  works best if max resistance of the photo cell is the same or close to the resistance of the second resistor.
