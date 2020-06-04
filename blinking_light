@@ -14,7 +14,7 @@ Jumper Wire:
   2->6 (pin of the 555 timer)
   
 Capacitor (220µF):
-  1->2 (pin of the 555 timer)
+  1->2 (pin of the 555 timer) (- on 1; + on 2)
   
 LED (3V forword voltage):
   1->3 (pin of the 555 timer) (anode (-) to 1, cathode (+) to 3)
