@@ -25,4 +25,6 @@ power source:
   
 description: the led blinks very fast
              when you change the 220µF capacitor to a 1000µF capacitor, the led blinks slower. (1s light, 0.5s no light)
-             when you change the 220µ capacitor to a 2200µF capacitor, the led blinks even slower. (2s light, 1s no light)
+             when you change the 220µF capacitor to a 2200µF capacitor, the led blinks even slower. (2s light, 1s no light)
+             when you change the 470 ohm resistors to 500k ohm resistors, the led does not blink at all, it is lit.
+             when you pull out both resistors, the led does not blink at all, it is lit.
