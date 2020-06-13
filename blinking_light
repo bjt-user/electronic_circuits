@@ -39,3 +39,6 @@ experiments:
            
              when you switch the resistor from pin 6 to 7 of the 555 to a 5,6k ohm resistor instead of the previous 470 ohm resistor
              the led will blink slower. (approximatelly 2s light, 1s no light)
+
+             when you switch the led with a printer motor (~1,5 forward voltage) the motor did behave weird, after I gave it a push
+             it started to run and did not stop anymore.
