@@ -24,7 +24,18 @@ power source:
   cathode(+)->62J
   
 description: the led blinks very fast
+
+experiments:
              when you change the 220µF capacitor to a 1000µF capacitor, the led blinks slower. (1s light, 0.5s no light)
+             
              when you change the 220µF capacitor to a 2200µF capacitor, the led blinks even slower. (2s light, 1s no light)
+             
+             when you change the 470 ohm resistors to 10 ohm resistors, the led does not light at all.
+             it flashes once when turned on and only very weak. (like if it does not have enough voltage)
+             
              when you change the 470 ohm resistors to 500k ohm resistors, the led does not blink at all, it is lit.
+             
              when you pull out both resistors, the led does not blink at all, it is lit.
+           
+             when you switch the resistor from pin 6 to 7 of the 555 to a 5,6k ohm resistor instead of the previous 470 ohm resistor
+             the led will blink slower. (approximatelly 2s light, 1s no light)
