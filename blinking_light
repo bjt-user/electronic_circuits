@@ -23,7 +23,11 @@ power source:
   anode(-)->62A
   cathode(+)->62J
   
-description: the led blinks very fast
+description: the led blinks very fast.
+             you can reduce the blinking frequency by using a resistor with more ohms between 6 and 7 of the 555 (for example 5,6k ohm)
+             or by using a capacitor with more µF.
+             you can increase the duration of the light stage by using a resistor with more ohms between 7 and 8 of the 555.
+             the output of the 555 is always 1.7V less than the input of the 555.
 
 experiments:
              when you change the 220µF capacitor to a 1000µF capacitor, the led blinks slower. (1s light, 0.5s no light)
