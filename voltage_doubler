@@ -1,0 +1,36 @@
+power source: 9V DC
+
+555 timer (NA555P):
+  plus terminal -> 8
+  minus terminal -> 1
+  2 -> 6 (jumper wire)
+  4 -> 8 (jumper wire)
+  2 -> 3 (resistor R1 15k ohm)
+  
+capacitor (100µF): (C1)
+  minus terminal -> - of the capacitor (anode)
+  + of the capacitor (cathode) -> 2 of the 555 timer
+  
+parallel to 8 and 3 of the NA555P:
+  8 -> + of diode D1 (cathode)
+  - of diode D1 (anode) -> + of capacitor C2 (cathode) (47µF)
+  - of capacitor C2 (anode) (47µF) -> resistor (100 ohm)
+  resistor (100 ohm) -> 3 of the NA555P
+  
+parallel to C2 and the minus terminal:
+  + of C2 -> + of diode D2
+  - of D2 -> + of C3 (330µF 400V)
+  - of C3 -> minus terminal
+  
+  
+  notes:
+    "minus terminal" means minus terminal of the battery
+    "plus terminal" means plus terminal of the battery
+    on horizontal capacitors the - (anode) is where the arrow with the minus in it is pointing to
+    in the original schematic C3 is 470µF and R1 is only 10k ohm
+    
+    
+  result:
+    you can get almost the double of the input voltage on C3 (14-15V after some time)
+    the two diodes consume about 0,7V each and the timer takes 1,7V away
+    if you take the power supply away and connect the leads of C3 together a small spark will be visible
