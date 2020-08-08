@@ -21,3 +21,10 @@ Die Lagen der Sekundaerspule sind NICHT durch Isolierband befestigt, was ein bes
 
 Das heißt, die Sekundaerspule ist die innere Spule.
 1170 / 34 = 34,41
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Widerstaende:
+Ein 21 Mega Ohm Widerstand dient wohl zur langsamen Entladung des Kondensators.
+
+Zwei 500 Ohm Widerstaende sind wahrscheinlich in Reihe geschaltet und gehen zur Basis des Transistors.
+Sie begrenzen den Schaltstrom.
