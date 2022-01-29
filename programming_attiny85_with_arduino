@@ -1,3 +1,5 @@
 This does NOT work:
 https://www.youtube.com/watch?v=Z_MhVSlMZI8
 Error while burning bootloader!
+
+=> choosing "ATTiny85/45 (Optiboot)" in Tools->Board instead of "ATTiny85 (micronucleus/digispark)" made the bootloading work
