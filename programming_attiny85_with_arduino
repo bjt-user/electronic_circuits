@@ -21,3 +21,6 @@ avrdude: verification error; content mismatch
 This report would have more information with
 "Show verbose output during compilation"
 option enabled in File -> Preferences.
+
+-------------------------------------------------------------------------------------------------------------------
+Try different resources.
