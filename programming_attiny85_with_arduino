@@ -1,5 +1,23 @@
+FAILS:
 This does NOT work:
 https://www.youtube.com/watch?v=Z_MhVSlMZI8
 Error while burning bootloader!
 
 => choosing "ATTiny85/45 (Optiboot)" in Tools->Board instead of "ATTiny85 (micronucleus/digispark)" made the bootloading work
+
+But programming the chip still doesnt work:
+
+Arduino: 1.8.13 (Linux), Board: "ATtiny45/85 (Optiboot), Enabled, CPU (CPU frequency), ATtiny85, 8 MHz (internal), B.O.D. Disabled (saves power), Enabled"
+
+Warning: platform.txt from core 'ATTinyCore' contains deprecated compiler.path={runtime.tools.avr-gcc.path}/bin/, automatically converted to compiler.path=/usr/bin/. Consider upgrading this core.
+Sketch uses 456 bytes (5%) of program storage space. Maximum is 7616 bytes.
+Global variables use 9 bytes (1%) of dynamic memory, leaving 503 bytes for local variables. Maximum is 512 bytes.
+An error occurred while uploading the sketch
+avrdude: verification error, first mismatch at byte 0x003a
+         0xa8 != 0xaa
+avrdude: verification error; content mismatch
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
