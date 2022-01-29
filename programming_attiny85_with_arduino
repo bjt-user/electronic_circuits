@@ -23,4 +23,9 @@ This report would have more information with
 option enabled in File -> Preferences.
 
 -------------------------------------------------------------------------------------------------------------------
-Try different resources.
+Try different resources. (and/or program with avrdude)
+
+It is probably better to get this:
+https://www.reichelt.de/de/en/programmer-for-avr-stk500-atmega-attiny-at90-diamex-usb-isp-p110344.html?search=Diamex+USB-ISP&&r=1
+and not use the Arduino setup.
+Easier to connect, you don't have to mess with Arduino setup.
